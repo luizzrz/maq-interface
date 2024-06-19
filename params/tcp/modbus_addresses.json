@@ -1,0 +1,2658 @@
+[
+  {
+    "address": 0,
+    "function-name-group": "Data_Com_0",
+    "data-type": "Int",
+    "clp-offset": "0.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 1,
+    "function-name-group": "R_VELOC_ESTEIRA",
+    "data-type": "Int",
+    "clp-offset": "2.0",
+    "value-starting": 0,
+    "value-nominal": 50
+  },
+  {
+    "address": 2,
+    "function-name-group": "R_ABERTURA_MAQUINA",
+    "data-type": "Int",
+    "clp-offset": "4.0",
+    "value-starting": 0,
+    "value-nominal": 1020
+  },
+  {
+    "address": 3,
+    "function-name-group": "R_PRENSOR_DX",
+    "data-type": "Int",
+    "clp-offset": "6.0",
+    "value-starting": 0,
+    "value-nominal": 100
+  },
+  {
+    "address": 4,
+    "function-name-group": "R_PRENSOR_SX",
+    "data-type": "Int",
+    "clp-offset": "8.0",
+    "value-starting": 0,
+    "value-nominal": 75
+  },
+  {
+    "address": 5,
+    "function-name-group": "Data_Com_5",
+    "data-type": "Int",
+    "clp-offset": "10.0",
+    "value-starting": 0,
+    "value-nominal": 25
+  },
+  {
+    "address": 6,
+    "function-name-group": "R_POSICIONA_ABERTURA",
+    "data-type": "Int",
+    "clp-offset": "12.0",
+    "value-starting": 0,
+    "value-nominal": 12
+  },
+  {
+    "address": 7,
+    "function-name-group": "Data_Com_7",
+    "data-type": "Int",
+    "clp-offset": "14.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 8,
+    "function-name-group": "R_START_AUTO",
+    "data-type": "Int",
+    "clp-offset": "16.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 9,
+    "function-name-group": "R_STOP_AUTO",
+    "data-type": "Int",
+    "clp-offset": "18.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 10,
+    "function-name-group": "S_EIXOS_OK",
+    "data-type": "Int",
+    "clp-offset": "20.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 11,
+    "function-name-group": "S_START_OK",
+    "data-type": "Int",
+    "clp-offset": "22.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 12,
+    "function-name-group": "S_STOP_OK",
+    "data-type": "Int",
+    "clp-offset": "24.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 13,
+    "function-name-group": "R_RESET_MAQ",
+    "data-type": "Int",
+    "clp-offset": "26.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 14,
+    "function-name-group": "R_AUTOMATICO",
+    "data-type": "Int",
+    "clp-offset": "28.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 15,
+    "function-name-group": "R_RESET_PROGRAMA",
+    "data-type": "Int",
+    "clp-offset": "30.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 16,
+    "function-name-group": "S_STATUS_AUTOMATICO",
+    "data-type": "Int",
+    "clp-offset": "32.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 17,
+    "function-name-group": "S_STATUS_START",
+    "data-type": "Int",
+    "clp-offset": "34.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 18,
+    "function-name-group": "S_STATUS_MAQUINA",
+    "data-type": "Int",
+    "clp-offset": "36.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 19,
+    "function-name-group": "Data_Com_19",
+    "data-type": "Int",
+    "clp-offset": "38.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 20,
+    "function-name-group": "R_DIST_PUXADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "40.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 21,
+    "function-name-group": "R_DIST_PUXADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "42.0",
+    "value-starting": 0,
+    "value-nominal": 1200
+  },
+  {
+    "address": 22,
+    "function-name-group": "R_DIST_GUILHOTINA_DX",
+    "data-type": "Int",
+    "clp-offset": "44.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 23,
+    "function-name-group": "R_DIST_GUILHOTINA_SX",
+    "data-type": "Int",
+    "clp-offset": "46.0",
+    "value-starting": 0,
+    "value-nominal": 1500
+  },
+  {
+    "address": 24,
+    "function-name-group": "R_DIST_TOPADOR_F_SX",
+    "data-type": "Int",
+    "clp-offset": "48.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 25,
+    "function-name-group": "R_DIST_TOPADOR_B_SX",
+    "data-type": "Int",
+    "clp-offset": "50.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 26,
+    "function-name-group": "R_DIST_TOPADOR_F_DX",
+    "data-type": "Int",
+    "clp-offset": "52.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 27,
+    "function-name-group": "R_DIST_TOPADOR_B_DX",
+    "data-type": "Int",
+    "clp-offset": "54.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 28,
+    "function-name-group": "R_DIST_ROUND_INF_F_SX",
+    "data-type": "Int",
+    "clp-offset": "56.0",
+    "value-starting": 0,
+    "value-nominal": 2200
+  },
+  {
+    "address": 29,
+    "function-name-group": "R_DIST_ROUND_INF_B_SX",
+    "data-type": "Int",
+    "clp-offset": "58.0",
+    "value-starting": 0,
+    "value-nominal": 2310
+  },
+  {
+    "address": 30,
+    "function-name-group": "R_DIST_ROUND_INF_F_DX",
+    "data-type": "Int",
+    "clp-offset": "60.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 31,
+    "function-name-group": "R_DIST_ROUND_INF_B_DX",
+    "data-type": "Int",
+    "clp-offset": "62.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 32,
+    "function-name-group": "Data_Com_32",
+    "data-type": "Int",
+    "clp-offset": "64.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 33,
+    "function-name-group": "Data_Com_33",
+    "data-type": "Int",
+    "clp-offset": "66.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 34,
+    "function-name-group": "Data_Com_34",
+    "data-type": "Int",
+    "clp-offset": "68.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 35,
+    "function-name-group": "Data_Com_35",
+    "data-type": "Int",
+    "clp-offset": "70.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 36,
+    "function-name-group": "Data_Com_36",
+    "data-type": "Int",
+    "clp-offset": "72.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 37,
+    "function-name-group": "Data_Com_37",
+    "data-type": "Int",
+    "clp-offset": "74.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 38,
+    "function-name-group": "Data_Com_38",
+    "data-type": "Int",
+    "clp-offset": "76.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 39,
+    "function-name-group": "Data_Com_39",
+    "data-type": "Int",
+    "clp-offset": "78.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 40,
+    "function-name-group": "Data_Com_40",
+    "data-type": "Int",
+    "clp-offset": "80.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 41,
+    "function-name-group": "Data_Com_41",
+    "data-type": "Int",
+    "clp-offset": "82.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 42,
+    "function-name-group": "Data_Com_42",
+    "data-type": "Int",
+    "clp-offset": "84.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 43,
+    "function-name-group": "Data_Com_43",
+    "data-type": "Int",
+    "clp-offset": "86.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 44,
+    "function-name-group": "Data_Com_44",
+    "data-type": "Int",
+    "clp-offset": "88.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 45,
+    "function-name-group": "Data_Com_45",
+    "data-type": "Int",
+    "clp-offset": "90.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 46,
+    "function-name-group": "Data_Com_46",
+    "data-type": "Int",
+    "clp-offset": "92.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 47,
+    "function-name-group": "Data_Com_47",
+    "data-type": "Int",
+    "clp-offset": "94.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 48,
+    "function-name-group": "Data_Com_48",
+    "data-type": "Int",
+    "clp-offset": "96.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 49,
+    "function-name-group": "Data_Com_49",
+    "data-type": "Int",
+    "clp-offset": "98.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 50,
+    "function-name-group": "Data_Com_50",
+    "data-type": "Int",
+    "clp-offset": "100.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 51,
+    "function-name-group": "Data_Com_51",
+    "data-type": "Int",
+    "clp-offset": "102.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 52,
+    "function-name-group": "Data_Com_52",
+    "data-type": "Int",
+    "clp-offset": "104.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 53,
+    "function-name-group": "Data_Com_53",
+    "data-type": "Int",
+    "clp-offset": "106.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 54,
+    "function-name-group": "Data_Com_54",
+    "data-type": "Int",
+    "clp-offset": "108.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 55,
+    "function-name-group": "Data_Com_55",
+    "data-type": "Int",
+    "clp-offset": "110.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 56,
+    "function-name-group": "Data_Com_56",
+    "data-type": "Int",
+    "clp-offset": "112.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 57,
+    "function-name-group": "Data_Com_57",
+    "data-type": "Int",
+    "clp-offset": "114.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 58,
+    "function-name-group": "R_HAB_PUXADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "116.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 59,
+    "function-name-group": "R_HAB_PUXADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "118.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 60,
+    "function-name-group": "R_IN_PUXADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "120.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 61,
+    "function-name-group": "R_IN_PUXADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "122.0",
+    "value-starting": 0,
+    "value-nominal": 15
+  },
+  {
+    "address": 62,
+    "function-name-group": "R_OUT_PUXADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "124.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 63,
+    "function-name-group": "R_OUT_PUXADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "126.0",
+    "value-starting": 0,
+    "value-nominal": 30
+  },
+  {
+    "address": 64,
+    "function-name-group": "R_HAB_GUILHOTINA_DX",
+    "data-type": "Int",
+    "clp-offset": "128.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 65,
+    "function-name-group": "R_HAB_GUILHOTINA_SX",
+    "data-type": "Int",
+    "clp-offset": "130.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 66,
+    "function-name-group": "R_IN_FACA_DX",
+    "data-type": "Int",
+    "clp-offset": "132.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 67,
+    "function-name-group": "R_IN_FACA_SX",
+    "data-type": "Int",
+    "clp-offset": "134.0",
+    "value-starting": 0,
+    "value-nominal": 200
+  },
+  {
+    "address": 68,
+    "function-name-group": "R_OUT_FACA_DX",
+    "data-type": "Int",
+    "clp-offset": "136.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 69,
+    "function-name-group": "R_OUT_FACA_SX",
+    "data-type": "Int",
+    "clp-offset": "138.0",
+    "value-starting": 0,
+    "value-nominal": 215
+  },
+  {
+    "address": 70,
+    "function-name-group": "R_HAB_TOPADOR_IN_SX",
+    "data-type": "Int",
+    "clp-offset": "140.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 71,
+    "function-name-group": "R_HAB_TOPADOR_OUT_SX",
+    "data-type": "Int",
+    "clp-offset": "142.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 72,
+    "function-name-group": "R_AVANCA_TOPADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "144.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 73,
+    "function-name-group": "R_RETORNA_TOPADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "146.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 74,
+    "function-name-group": "R_SEGUIR_TOPADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "148.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 75,
+    "function-name-group": "R_REGREDIR_TOPADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "150.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 76,
+    "function-name-group": "R_SEG_TOPADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "152.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 77,
+    "function-name-group": "R_HAB_TOPADOR_IN_DX",
+    "data-type": "Int",
+    "clp-offset": "154.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 78,
+    "function-name-group": "R_HAB_TOPADOR_OUT_DX",
+    "data-type": "Int",
+    "clp-offset": "156.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 79,
+    "function-name-group": "R_AVANCA_TOPADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "158.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 80,
+    "function-name-group": "R_RETORNA_TOPADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "160.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 81,
+    "function-name-group": "R_SEGUIR_TOPADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "162.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 82,
+    "function-name-group": "R_REGREDIR_TOPADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "164.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 83,
+    "function-name-group": "R_SEG_TOPADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "166.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 84,
+    "function-name-group": "R_HAB_REFILO_SX",
+    "data-type": "Int",
+    "clp-offset": "168.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 85,
+    "function-name-group": "R_HAB_REFILO_DX",
+    "data-type": "Int",
+    "clp-offset": "170.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 86,
+    "function-name-group": "R_HAB_POLIDOR_SX",
+    "data-type": "Int",
+    "clp-offset": "172.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 87,
+    "function-name-group": "R_HAB_POLIDOR_DX",
+    "data-type": "Int",
+    "clp-offset": "174.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 88,
+    "function-name-group": "R_HAB_ROUND_INF_F_SX",
+    "data-type": "Int",
+    "clp-offset": "176.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 89,
+    "function-name-group": "R_HAB_ROUND_INF_B_SX",
+    "data-type": "Int",
+    "clp-offset": "178.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 90,
+    "function-name-group": "R_FWD_ROUND_INF_F_SX",
+    "data-type": "Int",
+    "clp-offset": "180.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 91,
+    "function-name-group": "R_REV_ROUND_INF_F_SX",
+    "data-type": "Int",
+    "clp-offset": "182.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 92,
+    "function-name-group": "R_FWD_ROUND_INF_B_SX",
+    "data-type": "Int",
+    "clp-offset": "184.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 93,
+    "function-name-group": "R_REV_ROUND_INF_B_SX",
+    "data-type": "Int",
+    "clp-offset": "186.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 94,
+    "function-name-group": "R_HAB_ROUND_INF_F_DX",
+    "data-type": "Int",
+    "clp-offset": "188.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 95,
+    "function-name-group": "R_HAB_ROUND_INF_B_DX",
+    "data-type": "Int",
+    "clp-offset": "190.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 96,
+    "function-name-group": "R_FWD_ROUND_INF_F_DX",
+    "data-type": "Int",
+    "clp-offset": "192.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 97,
+    "function-name-group": "R_REV_ROUND_INF_F_DX",
+    "data-type": "Int",
+    "clp-offset": "194.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 98,
+    "function-name-group": "R_FWD_ROUND_INF_B_DX",
+    "data-type": "Int",
+    "clp-offset": "196.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 99,
+    "function-name-group": "R_REV_ROUND_INF_B_DX",
+    "data-type": "Int",
+    "clp-offset": "198.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 100,
+    "function-name-group": "Data_Com_100",
+    "data-type": "Int",
+    "clp-offset": "200.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 101,
+    "function-name-group": "Data_Com_101",
+    "data-type": "Int",
+    "clp-offset": "202.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 102,
+    "function-name-group": "Data_Com_102",
+    "data-type": "Int",
+    "clp-offset": "204.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 103,
+    "function-name-group": "Data_Com_103",
+    "data-type": "Int",
+    "clp-offset": "206.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 104,
+    "function-name-group": "Data_Com_104",
+    "data-type": "Int",
+    "clp-offset": "208.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 105,
+    "function-name-group": "Data_Com_105",
+    "data-type": "Int",
+    "clp-offset": "210.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 106,
+    "function-name-group": "S_VELOC_ESTEIRA_ATUAL",
+    "data-type": "Int",
+    "clp-offset": "212.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 107,
+    "function-name-group": "S_ABERTURA_ESTEIRA",
+    "data-type": "Int",
+    "clp-offset": "214.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 108,
+    "function-name-group": "S_PRENSOR_DX",
+    "data-type": "Int",
+    "clp-offset": "216.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 109,
+    "function-name-group": "S_PRENSOR_SX",
+    "data-type": "Int",
+    "clp-offset": "218.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 110,
+    "function-name-group": "R_LIGA_COLEIRO_SX",
+    "data-type": "Int",
+    "clp-offset": "220.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 111,
+    "function-name-group": "R_LIGA_COLEIRO_DX",
+    "data-type": "Int",
+    "clp-offset": "222.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 112,
+    "function-name-group": "S_COLEIRO_OK_SX",
+    "data-type": "Int",
+    "clp-offset": "224.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 113,
+    "function-name-group": "S_COLEIRO_OK_DX",
+    "data-type": "Int",
+    "clp-offset": "226.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 114,
+    "function-name-group": "Data_Com_114",
+    "data-type": "Int",
+    "clp-offset": "228.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 115,
+    "function-name-group": "Data_Com_115",
+    "data-type": "Int",
+    "clp-offset": "230.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 116,
+    "function-name-group": "S_ERRO_SX",
+    "data-type": "Int",
+    "clp-offset": "232.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 117,
+    "function-name-group": "S_ERRO_DX",
+    "data-type": "Int",
+    "clp-offset": "234.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 118,
+    "function-name-group": "S_MAQUINA_OCUPADA",
+    "data-type": "Int",
+    "clp-offset": "236.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 119,
+    "function-name-group": "S_MAQUINA_LINHA",
+    "data-type": "Int",
+    "clp-offset": "238.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 120,
+    "function-name-group": "S_COLEIRO_GIRANDO_SX",
+    "data-type": "Int",
+    "clp-offset": "240.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 121,
+    "function-name-group": "S_COLEIRO_GIRANDO_DX",
+    "data-type": "Int",
+    "clp-offset": "242.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 122,
+    "function-name-group": "S_QTDE_IN_TRABALHO",
+    "data-type": "Int",
+    "clp-offset": "244.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 123,
+    "function-name-group": "S_QTDE_TOTAL",
+    "data-type": "Int",
+    "clp-offset": "246.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 124,
+    "function-name-group": "S_ESTEIRA_GIRANDO",
+    "data-type": "Int",
+    "clp-offset": "248.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 125,
+    "function-name-group": "R_ESVAZIAR_MAQUINA",
+    "data-type": "Int",
+    "clp-offset": "250.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 126,
+    "function-name-group": "R_ZERA_PRODUCAO",
+    "data-type": "Int",
+    "clp-offset": "252.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 127,
+    "function-name-group": "Data_Com_127",
+    "data-type": "Int",
+    "clp-offset": "254.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 128,
+    "function-name-group": "R_ZERA_EIXOS",
+    "data-type": "Int",
+    "clp-offset": "256.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 129,
+    "function-name-group": "Data_Com_129",
+    "data-type": "Int",
+    "clp-offset": "258.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 130,
+    "function-name-group": "R_PINOS_ESTEIRA",
+    "data-type": "Int",
+    "clp-offset": "260.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 131,
+    "function-name-group": "Data_Com_131",
+    "data-type": "Int",
+    "clp-offset": "262.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 132,
+    "function-name-group": "R_DIST_TUPIA_SX",
+    "data-type": "Int",
+    "clp-offset": "264.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 133,
+    "function-name-group": "Data_Com_133",
+    "data-type": "Int",
+    "clp-offset": "266.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 134,
+    "function-name-group": "R_DIST_TUPIA_DX",
+    "data-type": "Int",
+    "clp-offset": "268.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 135,
+    "function-name-group": "Data_Com_135",
+    "data-type": "Int",
+    "clp-offset": "270.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 136,
+    "function-name-group": "Data_Com_136",
+    "data-type": "Int",
+    "clp-offset": "272.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 137,
+    "function-name-group": "Data_Com_137",
+    "data-type": "Int",
+    "clp-offset": "274.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 138,
+    "function-name-group": "Data_Com_138",
+    "data-type": "Int",
+    "clp-offset": "276.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 139,
+    "function-name-group": "Data_Com_139",
+    "data-type": "Int",
+    "clp-offset": "278.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 140,
+    "function-name-group": "Data_Com_140",
+    "data-type": "Int",
+    "clp-offset": "280.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 141,
+    "function-name-group": "Data_Com_141",
+    "data-type": "Int",
+    "clp-offset": "282.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 142,
+    "function-name-group": "Data_Com_142",
+    "data-type": "Int",
+    "clp-offset": "284.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 143,
+    "function-name-group": "Data_Com_143",
+    "data-type": "Int",
+    "clp-offset": "286.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 144,
+    "function-name-group": "Data_Com_144",
+    "data-type": "Int",
+    "clp-offset": "288.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 145,
+    "function-name-group": "Data_Com_145",
+    "data-type": "Int",
+    "clp-offset": "290.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 146,
+    "function-name-group": "Data_Com_146",
+    "data-type": "Int",
+    "clp-offset": "292.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 147,
+    "function-name-group": "Data_Com_147",
+    "data-type": "Int",
+    "clp-offset": "294.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 148,
+    "function-name-group": "Data_Com_148",
+    "data-type": "Int",
+    "clp-offset": "296.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 149,
+    "function-name-group": "Data_Com_149",
+    "data-type": "Int",
+    "clp-offset": "298.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 150,
+    "function-name-group": "Data_Com_150",
+    "data-type": "Int",
+    "clp-offset": "300.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 151,
+    "function-name-group": "Data_Com_151",
+    "data-type": "Int",
+    "clp-offset": "302.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 152,
+    "function-name-group": "R_HAB_TUPIA_SX",
+    "data-type": "Int",
+    "clp-offset": "304.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 153,
+    "function-name-group": "Data_Com_153",
+    "data-type": "Int",
+    "clp-offset": "306.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 154,
+    "function-name-group": "Data_Com_154",
+    "data-type": "Int",
+    "clp-offset": "308.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 155,
+    "function-name-group": "R_IN_RISC_SX",
+    "data-type": "Int",
+    "clp-offset": "310.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 156,
+    "function-name-group": "R_OUT_RISC_SX",
+    "data-type": "Int",
+    "clp-offset": "312.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 157,
+    "function-name-group": "Data_Com_157",
+    "data-type": "Int",
+    "clp-offset": "314.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 158,
+    "function-name-group": "R_HAB_TUPIA_DX",
+    "data-type": "Int",
+    "clp-offset": "316.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 159,
+    "function-name-group": "Data_Com_159",
+    "data-type": "Int",
+    "clp-offset": "318.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 160,
+    "function-name-group": "Data_Com_160",
+    "data-type": "Int",
+    "clp-offset": "320.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 161,
+    "function-name-group": "R_IN_RISC_DX",
+    "data-type": "Int",
+    "clp-offset": "322.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 162,
+    "function-name-group": "R_OUT_RISC_DX",
+    "data-type": "Int",
+    "clp-offset": "324.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 163,
+    "function-name-group": "Data_Com_163",
+    "data-type": "Int",
+    "clp-offset": "326.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 164,
+    "function-name-group": "R_HAB_RISCADOR_SX",
+    "data-type": "Int",
+    "clp-offset": "328.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 165,
+    "function-name-group": "R_HAB_RISCADOR_DX",
+    "data-type": "Int",
+    "clp-offset": "330.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 166,
+    "function-name-group": "Data_Com_166",
+    "data-type": "Int",
+    "clp-offset": "332.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 167,
+    "function-name-group": "Data_Com_167",
+    "data-type": "Int",
+    "clp-offset": "334.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 168,
+    "function-name-group": "Data_Com_168",
+    "data-type": "Int",
+    "clp-offset": "336.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 169,
+    "function-name-group": "Data_Com_169",
+    "data-type": "Int",
+    "clp-offset": "338.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 170,
+    "function-name-group": "Data_Com_170",
+    "data-type": "Int",
+    "clp-offset": "340.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 171,
+    "function-name-group": "Data_Com_171",
+    "data-type": "Int",
+    "clp-offset": "342.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 172,
+    "function-name-group": "Data_Com_172",
+    "data-type": "Int",
+    "clp-offset": "344.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 173,
+    "function-name-group": "Data_Com_173",
+    "data-type": "Int",
+    "clp-offset": "346.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 174,
+    "function-name-group": "Data_Com_174",
+    "data-type": "Int",
+    "clp-offset": "348.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 175,
+    "function-name-group": "Data_Com_175",
+    "data-type": "Int",
+    "clp-offset": "350.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 176,
+    "function-name-group": "Data_Com_176",
+    "data-type": "Int",
+    "clp-offset": "352.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 177,
+    "function-name-group": "Data_Com_177",
+    "data-type": "Int",
+    "clp-offset": "354.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 178,
+    "function-name-group": "Data_Com_178",
+    "data-type": "Int",
+    "clp-offset": "356.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 179,
+    "function-name-group": "Data_Com_179",
+    "data-type": "Int",
+    "clp-offset": "358.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 180,
+    "function-name-group": "Data_Com_180",
+    "data-type": "Int",
+    "clp-offset": "360.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 181,
+    "function-name-group": "S_EMG",
+    "data-type": "Int",
+    "clp-offset": "362.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 182,
+    "function-name-group": "S_COMANDO",
+    "data-type": "Int",
+    "clp-offset": "364.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 183,
+    "function-name-group": "S_EMG_AR",
+    "data-type": "Int",
+    "clp-offset": "366.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 184,
+    "function-name-group": "S_ALL_ESTEIRA",
+    "data-type": "Int",
+    "clp-offset": "368.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 185,
+    "function-name-group": "S_ALL_ABRE_FECHA",
+    "data-type": "Int",
+    "clp-offset": "370.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 186,
+    "function-name-group": "S_ALL_PRENSORES",
+    "data-type": "Int",
+    "clp-offset": "372.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 187,
+    "function-name-group": "S_ALL_INV_TUPIAS",
+    "data-type": "Int",
+    "clp-offset": "374.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 188,
+    "function-name-group": "S_ALL_INV_GR_COLEIRO",
+    "data-type": "Int",
+    "clp-offset": "376.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 189,
+    "function-name-group": "S_ALL_INV_TOPADORES",
+    "data-type": "Int",
+    "clp-offset": "378.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 190,
+    "function-name-group": "S_ALL_INV_REFILADORES",
+    "data-type": "Int",
+    "clp-offset": "380.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 191,
+    "function-name-group": "S_ALL_INV_ROUND_F",
+    "data-type": "Int",
+    "clp-offset": "382.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 192,
+    "function-name-group": "S_ALL_INV_ROUND_B",
+    "data-type": "Int",
+    "clp-offset": "384.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 193,
+    "function-name-group": "S_ALL_POLIDORES",
+    "data-type": "Int",
+    "clp-offset": "386.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 194,
+    "function-name-group": "S_ALL_DISTANCIA_PECA",
+    "data-type": "Int",
+    "clp-offset": "388.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 195,
+    "function-name-group": "S_ALL_INSEGUIMENTO",
+    "data-type": "Int",
+    "clp-offset": "390.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 196,
+    "function-name-group": "S_ALL_COLEIRO_SX_TB",
+    "data-type": "Int",
+    "clp-offset": "392.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 197,
+    "function-name-group": "S_ALL_COLEIRO_DX_TB",
+    "data-type": "Int",
+    "clp-offset": "394.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 198,
+    "function-name-group": "S_PRESENCA_ERRO",
+    "data-type": "Int",
+    "clp-offset": "396.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 199,
+    "function-name-group": "S_ALL_TIMER_OUT",
+    "data-type": "Int",
+    "clp-offset": "398.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 200,
+    "function-name-group": "S_ALL_SEG_TOPADOR_B",
+    "data-type": "Int",
+    "clp-offset": "400.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 201,
+    "function-name-group": "S_ALL_SEG_ROUND_INF_B",
+    "data-type": "Int",
+    "clp-offset": "402.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 202,
+    "function-name-group": "S_ALL_SEG_ROUND_SUP_B",
+    "data-type": "Int",
+    "clp-offset": "404.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 203,
+    "function-name-group": "S_ALL_SEG_FITA_SX",
+    "data-type": "Int",
+    "clp-offset": "406.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 204,
+    "function-name-group": "S_ALL_SEG_FITA_DX",
+    "data-type": "Int",
+    "clp-offset": "408.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 205,
+    "function-name-group": "S_ALL_SEG_CORTE_SX",
+    "data-type": "Int",
+    "clp-offset": "410.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 206,
+    "function-name-group": "S_ALL_SEG_CORTE_DX",
+    "data-type": "Int",
+    "clp-offset": "412.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 207,
+    "function-name-group": "S_ALL_ZERO_ENC_ABERTURA",
+    "data-type": "Int",
+    "clp-offset": "414.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 208,
+    "function-name-group": "S_ALL_SEG_PORTAS_SX",
+    "data-type": "Int",
+    "clp-offset": "416.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 209,
+    "function-name-group": "S_ALL_SEG_PORTAS_DX",
+    "data-type": "Int",
+    "clp-offset": "418.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 210,
+    "function-name-group": "Data_Com_210",
+    "data-type": "Int",
+    "clp-offset": "420.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 211,
+    "function-name-group": "Data_Com_211",
+    "data-type": "Int",
+    "clp-offset": "422.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 212,
+    "function-name-group": "Data_Com_212",
+    "data-type": "Int",
+    "clp-offset": "424.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 213,
+    "function-name-group": "Data_Com_213",
+    "data-type": "Int",
+    "clp-offset": "426.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 214,
+    "function-name-group": "Data_Com_214",
+    "data-type": "Int",
+    "clp-offset": "428.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 215,
+    "function-name-group": "Data_Com_215",
+    "data-type": "Int",
+    "clp-offset": "430.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 216,
+    "function-name-group": "Data_Com_216",
+    "data-type": "Int",
+    "clp-offset": "432.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 217,
+    "function-name-group": "Data_Com_217",
+    "data-type": "Int",
+    "clp-offset": "434.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 218,
+    "function-name-group": "Data_Com_218",
+    "data-type": "Int",
+    "clp-offset": "436.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 219,
+    "function-name-group": "Data_Com_219",
+    "data-type": "Int",
+    "clp-offset": "438.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 220,
+    "function-name-group": "Data_Com_220",
+    "data-type": "Int",
+    "clp-offset": "440.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 221,
+    "function-name-group": "Data_Com_221",
+    "data-type": "Int",
+    "clp-offset": "442.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 222,
+    "function-name-group": "Data_Com_222",
+    "data-type": "Int",
+    "clp-offset": "444.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 223,
+    "function-name-group": "Data_Com_223",
+    "data-type": "Int",
+    "clp-offset": "446.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 224,
+    "function-name-group": "Data_Com_224",
+    "data-type": "Int",
+    "clp-offset": "448.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 225,
+    "function-name-group": "Data_Com_225",
+    "data-type": "Int",
+    "clp-offset": "450.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 226,
+    "function-name-group": "Data_Com_226",
+    "data-type": "Int",
+    "clp-offset": "452.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 227,
+    "function-name-group": "Data_Com_227",
+    "data-type": "Int",
+    "clp-offset": "454.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 228,
+    "function-name-group": "Data_Com_228",
+    "data-type": "Int",
+    "clp-offset": "456.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 229,
+    "function-name-group": "Data_Com_229",
+    "data-type": "Int",
+    "clp-offset": "458.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 230,
+    "function-name-group": "Data_Com_230",
+    "data-type": "Int",
+    "clp-offset": "460.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 231,
+    "function-name-group": "Data_Com_231",
+    "data-type": "Int",
+    "clp-offset": "462.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 232,
+    "function-name-group": "Data_Com_232",
+    "data-type": "Int",
+    "clp-offset": "464.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 233,
+    "function-name-group": "Data_Com_233",
+    "data-type": "Int",
+    "clp-offset": "466.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 234,
+    "function-name-group": "Data_Com_234",
+    "data-type": "Int",
+    "clp-offset": "468.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 235,
+    "function-name-group": "Data_Com_235",
+    "data-type": "Int",
+    "clp-offset": "470.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 236,
+    "function-name-group": "Data_Com_236",
+    "data-type": "Int",
+    "clp-offset": "472.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 237,
+    "function-name-group": "Data_Com_237",
+    "data-type": "Int",
+    "clp-offset": "474.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 238,
+    "function-name-group": "Data_Com_238",
+    "data-type": "Int",
+    "clp-offset": "476.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 239,
+    "function-name-group": "Data_Com_239",
+    "data-type": "Int",
+    "clp-offset": "478.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 240,
+    "function-name-group": "Data_Com_240",
+    "data-type": "Int",
+    "clp-offset": "480.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 241,
+    "function-name-group": "Data_Com_241",
+    "data-type": "Int",
+    "clp-offset": "482.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 242,
+    "function-name-group": "Data_Com_242",
+    "data-type": "Int",
+    "clp-offset": "484.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 243,
+    "function-name-group": "Data_Com_243",
+    "data-type": "Int",
+    "clp-offset": "486.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 244,
+    "function-name-group": "Data_Com_244",
+    "data-type": "Int",
+    "clp-offset": "488.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 245,
+    "function-name-group": "Data_Com_245",
+    "data-type": "Int",
+    "clp-offset": "490.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 246,
+    "function-name-group": "Data_Com_246",
+    "data-type": "Int",
+    "clp-offset": "492.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 247,
+    "function-name-group": "Data_Com_247",
+    "data-type": "Int",
+    "clp-offset": "494.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 248,
+    "function-name-group": "Data_Com_248",
+    "data-type": "Int",
+    "clp-offset": "496.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 249,
+    "function-name-group": "Data_Com_249",
+    "data-type": "Int",
+    "clp-offset": "498.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 250,
+    "function-name-group": "Data_Com_250",
+    "data-type": "Int",
+    "clp-offset": "500.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 251,
+    "function-name-group": "Data_Com_251",
+    "data-type": "Int",
+    "clp-offset": "502.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 252,
+    "function-name-group": "Data_Com_252",
+    "data-type": "Int",
+    "clp-offset": "504.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 253,
+    "function-name-group": "Data_Com_253",
+    "data-type": "Int",
+    "clp-offset": "506.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 254,
+    "function-name-group": "R_HAB_ALIN_LAT",
+    "data-type": "Int",
+    "clp-offset": "508.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 255,
+    "function-name-group": "Data_Com_255",
+    "data-type": "Int",
+    "clp-offset": "510.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 256,
+    "function-name-group": "Data_Com_256",
+    "data-type": "Int",
+    "clp-offset": "512.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 257,
+    "function-name-group": "Data_Com_257",
+    "data-type": "Int",
+    "clp-offset": "514.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 258,
+    "function-name-group": "Data_Com_258",
+    "data-type": "Int",
+    "clp-offset": "516.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 259,
+    "function-name-group": "Data_Com_259",
+    "data-type": "Int",
+    "clp-offset": "518.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 260,
+    "function-name-group": "Data_Com_260",
+    "data-type": "Int",
+    "clp-offset": "520.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 261,
+    "function-name-group": "Data_Com_261",
+    "data-type": "Int",
+    "clp-offset": "522.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 262,
+    "function-name-group": "Data_Com_262",
+    "data-type": "Int",
+    "clp-offset": "524.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 263,
+    "function-name-group": "Data_Com_263",
+    "data-type": "Int",
+    "clp-offset": "526.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 264,
+    "function-name-group": "Data_Com_264",
+    "data-type": "Int",
+    "clp-offset": "528.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 265,
+    "function-name-group": "Data_Com_265",
+    "data-type": "Int",
+    "clp-offset": "530.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 266,
+    "function-name-group": "R_DIST_ROUND_SUP_F_SX",
+    "data-type": "Int",
+    "clp-offset": "532.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 267,
+    "function-name-group": "R_DIST_ROUND_SUP_B_SX",
+    "data-type": "Int",
+    "clp-offset": "534.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 268,
+    "function-name-group": "R_DIST_ROUND_SUP_F_DX",
+    "data-type": "Int",
+    "clp-offset": "536.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 269,
+    "function-name-group": "R_DIST_ROUND_SUP_B_DX",
+    "data-type": "Int",
+    "clp-offset": "538.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 270,
+    "function-name-group": "Data_Com_270",
+    "data-type": "Int",
+    "clp-offset": "540.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 271,
+    "function-name-group": "Data_Com_271",
+    "data-type": "Int",
+    "clp-offset": "542.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 272,
+    "function-name-group": "Data_Com_272",
+    "data-type": "Int",
+    "clp-offset": "544.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 273,
+    "function-name-group": "Data_Com_273",
+    "data-type": "Int",
+    "clp-offset": "546.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 274,
+    "function-name-group": "Data_Com_274",
+    "data-type": "Int",
+    "clp-offset": "548.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 275,
+    "function-name-group": "Data_Com_275",
+    "data-type": "Int",
+    "clp-offset": "550.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 276,
+    "function-name-group": "Data_Com_276",
+    "data-type": "Int",
+    "clp-offset": "552.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 277,
+    "function-name-group": "Data_Com_277",
+    "data-type": "Int",
+    "clp-offset": "554.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 278,
+    "function-name-group": "Data_Com_278",
+    "data-type": "Int",
+    "clp-offset": "556.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 279,
+    "function-name-group": "Data_Com_279",
+    "data-type": "Int",
+    "clp-offset": "558.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 280,
+    "function-name-group": "R_HAB_SEG_FITA_SX",
+    "data-type": "Int",
+    "clp-offset": "560.0",
+    "value-starting": 0,
+    "value-nominal": 1
+  },
+  {
+    "address": 281,
+    "function-name-group": "R_HAB_SEG_FITA_DX",
+    "data-type": "Int",
+    "clp-offset": "562.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 282,
+    "function-name-group": "R_INI_SEG_FITA_SX",
+    "data-type": "Int",
+    "clp-offset": "564.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 283,
+    "function-name-group": "R_FIN_SEG_FITA_SX",
+    "data-type": "Int",
+    "clp-offset": "566.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 284,
+    "function-name-group": "R_INI_SEG_CORTE_SX",
+    "data-type": "Int",
+    "clp-offset": "568.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 285,
+    "function-name-group": "R_FIN_SEG_CORTE_SX",
+    "data-type": "Int",
+    "clp-offset": "570.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 286,
+    "function-name-group": "R_INI_SEG_FITA_DX",
+    "data-type": "Int",
+    "clp-offset": "572.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 287,
+    "function-name-group": "R_FIN_SEG_FITA_DX",
+    "data-type": "Int",
+    "clp-offset": "574.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 288,
+    "function-name-group": "R_INI_SEG_CORTE_DX",
+    "data-type": "Int",
+    "clp-offset": "576.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 289,
+    "function-name-group": "R_FIN_SEG_CORTE_DX",
+    "data-type": "Int",
+    "clp-offset": "578.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 290,
+    "function-name-group": "Data_Com_290",
+    "data-type": "Int",
+    "clp-offset": "580.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 291,
+    "function-name-group": "Data_Com_291",
+    "data-type": "Int",
+    "clp-offset": "582.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 292,
+    "function-name-group": "R_ALIVIO_TOPADOR_F_SX",
+    "data-type": "Int",
+    "clp-offset": "584.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 293,
+    "function-name-group": "R_ALIVIO_TOPADOR_F_DX",
+    "data-type": "Int",
+    "clp-offset": "586.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 294,
+    "function-name-group": "Data_Com_294",
+    "data-type": "Int",
+    "clp-offset": "588.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 295,
+    "function-name-group": "Data_Com_295",
+    "data-type": "Int",
+    "clp-offset": "590.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 296,
+    "function-name-group": "R_HAB_ROUND_SUP_F_SX",
+    "data-type": "Int",
+    "clp-offset": "592.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 297,
+    "function-name-group": "R_HAB_ROUND_SUP_F_DX",
+    "data-type": "Int",
+    "clp-offset": "594.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 298,
+    "function-name-group": "R_HAB_ROUND_SUP_B_SX",
+    "data-type": "Int",
+    "clp-offset": "596.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 299,
+    "function-name-group": "R_HAB_ROUND_SUP_B_DX",
+    "data-type": "Int",
+    "clp-offset": "598.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 300,
+    "function-name-group": "R_ALIVIO_INF_F_SX",
+    "data-type": "Int",
+    "clp-offset": "600.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 301,
+    "function-name-group": "R_ALIVIO_INF_F_DX",
+    "data-type": "Int",
+    "clp-offset": "602.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 302,
+    "function-name-group": "R_ALIVIO_SUP_F_SX",
+    "data-type": "Int",
+    "clp-offset": "604.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 303,
+    "function-name-group": "R_ALIVIO_SUP_F_DX",
+    "data-type": "Int",
+    "clp-offset": "606.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 304,
+    "function-name-group": "R_FWD_ROUND_SUP_F_SX",
+    "data-type": "Int",
+    "clp-offset": "608.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 305,
+    "function-name-group": "R_REV_ROUND_SUP_F_SX",
+    "data-type": "Int",
+    "clp-offset": "610.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 306,
+    "function-name-group": "R_FWD_ROUND_SUP_F_DX",
+    "data-type": "Int",
+    "clp-offset": "612.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 307,
+    "function-name-group": "R_REV_ROUND_SUP_F_DX",
+    "data-type": "Int",
+    "clp-offset": "614.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 308,
+    "function-name-group": "R_FWD_ROUND_SUP_B_SX",
+    "data-type": "Int",
+    "clp-offset": "616.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 309,
+    "function-name-group": "R_REV_ROUND_SUP_B_SX",
+    "data-type": "Int",
+    "clp-offset": "618.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 310,
+    "function-name-group": "R_FWD_ROUND_SUP_B_DX",
+    "data-type": "Int",
+    "clp-offset": "620.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 311,
+    "function-name-group": "R_REV_ROUND_SUP_B_DX",
+    "data-type": "Int",
+    "clp-offset": "622.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 312,
+    "function-name-group": "R_SEG_INF_B_SX",
+    "data-type": "Int",
+    "clp-offset": "624.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 313,
+    "function-name-group": "R_SEG_INF_B_DX",
+    "data-type": "Int",
+    "clp-offset": "626.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 314,
+    "function-name-group": "R_SEG_SUP_B_SX",
+    "data-type": "Int",
+    "clp-offset": "628.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 315,
+    "function-name-group": "R_SEG_SUP_B_DX",
+    "data-type": "Int",
+    "clp-offset": "630.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 316,
+    "function-name-group": "Data_Com_316",
+    "data-type": "Int",
+    "clp-offset": "632.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 317,
+    "function-name-group": "Data_Com_317",
+    "data-type": "Int",
+    "clp-offset": "634.0",
+    "value-starting": 0,
+    "value-nominal": 500
+  },
+  {
+    "address": 318,
+    "function-name-group": "Data_Com_318",
+    "data-type": "Int",
+    "clp-offset": "636.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 319,
+    "function-name-group": "Data_Com_319",
+    "data-type": "Int",
+    "clp-offset": "638.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 320,
+    "function-name-group": "Data_Com_320",
+    "data-type": "Int",
+    "clp-offset": "640.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 321,
+    "function-name-group": "Data_Com_321",
+    "data-type": "Int",
+    "clp-offset": "642.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 322,
+    "function-name-group": "Data_Com_322",
+    "data-type": "Int",
+    "clp-offset": "644.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 323,
+    "function-name-group": "Data_Com_323",
+    "data-type": "Int",
+    "clp-offset": "646.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 324,
+    "function-name-group": "Data_Com_324",
+    "data-type": "Int",
+    "clp-offset": "648.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 325,
+    "function-name-group": "Data_Com_325",
+    "data-type": "Int",
+    "clp-offset": "650.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 326,
+    "function-name-group": "Data_Com_326",
+    "data-type": "Int",
+    "clp-offset": "652.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 327,
+    "function-name-group": "Data_Com_327",
+    "data-type": "Int",
+    "clp-offset": "654.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 328,
+    "function-name-group": "Data_Com_328",
+    "data-type": "Int",
+    "clp-offset": "656.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 329,
+    "function-name-group": "Data_Com_329",
+    "data-type": "Int",
+    "clp-offset": "658.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 330,
+    "function-name-group": "Data_Com_330",
+    "data-type": "Int",
+    "clp-offset": "660.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  },
+  {
+    "address": 331,
+    "function-name-group": "Data_Com_331",
+    "data-type": "Int",
+    "clp-offset": "662.0",
+    "value-starting": 0,
+    "value-nominal": 0
+  }
+]
