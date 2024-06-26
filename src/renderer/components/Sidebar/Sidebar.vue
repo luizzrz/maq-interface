@@ -40,21 +40,20 @@
           No Layout Pages
         </h6>
         <!-- Navigation -->
-
         <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
           <li class="items-center">
             <router-link class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-              to="/landing">
+              v-on:click="changePage()" to="/automatico">
               <i class="fas fa-newspaper text-blueGray-300 mr-2 text-sm"></i>
-              Landing Page
+              Automatico
             </router-link>
           </li>
 
           <li class="items-center">
             <router-link class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-              to="/profile">
+              to="/debug">
               <i class="fas fa-user-circle text-blueGray-300 mr-2 text-sm"></i>
-              Profile Page
+              Debug
             </router-link>
           </li>
         </ul>
@@ -147,6 +146,9 @@ export default {
     };
   },
   methods: {
+    async changePage() {
+      console.log("Mudou de pagina")
+    },
   },
   components: {
     NotificationDropdown,

@@ -12,8 +12,11 @@ import "./assets/styles/tailwind.css";
 import User from "./layouts/User.vue";
 // import Auth from "./layouts/Auth.vue";
 
-// views for Automatic Mode layout
+// views for debug mode layout
 import AllModbus from "./views/debug/AllModbus.vue";
+
+//views for automatico layout
+import AutomaticoBase from "./views/automatico/AutomaticoBase.vue"
 
 // views for Auth layout
 // import Login from "./views/auth/Login.vue";
@@ -48,6 +51,17 @@ const routes = [
       //   component: Maps,
       // },
     ],
+  },
+  {
+    path: "/automatico",
+    redirect: "/automatico/programa-maquina",
+    component: User,
+    children: [
+      {
+        path: "/automatico/programa-maquina",
+        component: AutomaticoBase,
+      }
+    ]
   },
   // {
   //   path: "/auth",
