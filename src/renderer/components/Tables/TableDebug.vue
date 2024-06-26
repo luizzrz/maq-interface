@@ -1,23 +1,17 @@
 <template>
   <div :class="containerClass">
-    <div class="controls">
-      <input v-model="ip" placeholder="IP Address" class="input" />
-      <input v-model.number="port" type="number" placeholder="Port" class="input ml-2" />
-      <button @click="connectModbus" class="button bg-blue-500 ml-2">Connect</button>
-      <span v-if="connectionMessage" :class="messageClass" class="ml-2">{{ connectionMessage }}</span>
-    </div>
-    <div v-if="connected" class="controls">
-      <input v-model.number="readAddress" type="number" placeholder="Read Address" class="input" />
-      <input v-model.number="readLength" type="number" placeholder="Length" class="input ml-2" />
-      <button @click="readModbus" class="button bg-green-500 ml-2">Read</button>
+    <div class="flex flex-wrap mb-4 space-x-2">
+      <input v-model.number="readAddress" type="number" placeholder="Read Address" class="input border p-2 rounded" />
+      <input v-model.number="readLength" type="number" placeholder="Length" class="input border p-2 rounded ml-2" />
+      <button @click="readModbus" class="button bg-green-500 text-white p-2 rounded ml-2">Read</button>
       <span v-if="errorMessage" :class="messageClass" class="ml-2">{{ errorMessage }}</span>
     </div>
-    <div class="controls">
-      <button @click="loadJson" class="button bg-blue-500 ml-2">Load JSON</button>
+    <div class="flex mb-4">
+      <button @click="loadJson" class="button bg-blue-500 text-white p-2 rounded ml-2">Load JSON</button>
       <input type="file" ref="fileInput" @change="handleFileUpload" style="display: none;" />
     </div>
-    <div class="table-container">
-      <table id="projects-table" class="display w-full">
+    <div class="overflow-x-auto">
+      <table id="projects-table" class="min-w-full bg-white">
         <thead>
           <tr>
             <th v-for="header in headers" :key="header" :class="headerClass">{{ header }}</th>
@@ -25,17 +19,17 @@
         </thead>
         <tbody>
           <tr v-for="(project, index) in projects" :key="index">
-            <td>{{ project.address }}</td>
-            <td>{{ project['function-name-group'] }}</td>
-            <td>{{ project['data-type'] }}</td>
-            <td>{{ project['offset-clp'] }}</td>
-            <td>{{ project['starting-value'] }}</td>
-            <td>{{ project['nominal-value'] }}</td>
-            <td>
+            <td class="border px-4 py-2">{{ project.address }}</td>
+            <td class="border px-4 py-2">{{ project['function-name-group'] }}</td>
+            <td class="border px-4 py-2">{{ project['data-type'] }}</td>
+            <td class="border px-4 py-2">{{ project['offset-clp'] }}</td>
+            <td class="border px-4 py-2">{{ project['starting-value'] }}</td>
+            <td class="border px-4 py-2">{{ project['nominal-value'] }}</td>
+            <td class="border px-4 py-2">
               <input 
                 type="number" 
                 :value="project['current-value']" 
-                class="input"
+                class="input border p-2 rounded"
                 :data-index="index"
               />
             </td>
@@ -49,19 +43,15 @@
 <script>
 import $ from 'jquery';
 import 'datatables.net';
-import { connectModbus, readModbus, writeModbus } from '../../utils/ModbusLogic';
+import { readModbus, writeModbus } from '../../utils/ModbusLogic';
 
 export default {
   data() {
     return {
-      ip: '192.168.0.43',
-      port: 502,
-      connected: false,
       readAddress: 0,
       readLength: 1,
       readData: [],
       errorMessage: '',
-      connectionMessage: '',
       projects: [],
     };
   },
@@ -76,7 +66,7 @@ export default {
       return this.color === 'light' ? 'bg-white' : 'bg-emerald-900 text-white';
     },
     headerClass() {
-      return this.color === 'light' ? 'bg-blueGray-50 text-blueGray-500' : 'bg-emerald-800 text-emerald-300';
+      return this.color === 'light' ? 'bg-gray-200 text-gray-600 p-4' : 'bg-emerald-800 text-emerald-300 p-4';
     },
     messageClass() {
       return this.errorMessage ? 'text-red-500' : 'text-green-500';
@@ -94,12 +84,6 @@ export default {
     },
   },
   methods: {
-    async connectModbus() {
-      const result = await connectModbus(this.ip, this.port);
-      this.connectionMessage = result.message;
-      this.errorMessage = result.message;
-      this.connected = result.status === 'connected';
-    },
     async readModbus() {
       const result = await readModbus(this.readAddress, this.readLength);
       if (result.status === 'success') {
@@ -164,7 +148,7 @@ export default {
               title: 'Value Current', 
               data: 'current-value',
               render: (data, type, row, meta) => {
-                return `<input type="number" value="${data}" class="input" data-index="${meta.row}">`;
+                return `<input type="number" value="${data}" class="input border p-2 rounded" data-index="${meta.row}">`;
               }
             }
           ],
@@ -195,46 +179,7 @@ export default {
 </script>
 
 <style scoped>
-.input {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.button {
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  border: none;
-  border-radius: 0.25rem;
-  color: white;
-}
-
-.controls {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.table-container {
-  overflow-x: auto;
-}
-
-.display {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.table-header {
-  padding: 0.75rem;
-  text-align: left;
-  font-weight: 600;
-}
-
-.table-cell {
-  padding: 0.75rem;
 }
 </style>
