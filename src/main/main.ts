@@ -7,8 +7,8 @@ const client = new ModbusRTU();
 function createWindow () {
 
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1320,
+    height: 700,
     webPreferences: {
       preload: join(__dirname, 'preload.js'),
       nodeIntegration: false,
@@ -19,6 +19,8 @@ function createWindow () {
   if (process.env.NODE_ENV === 'development') {
     const rendererPort = process.argv[2];
     mainWindow.loadURL(`http://localhost:${rendererPort}`);
+    mainWindow.webContents.openDevTools({ mode: 'detach' }); // Open the DevTools in a separate window
+
   }
   else {
     mainWindow.loadFile(join(app.getAppPath(), 'renderer', 'index.html'));
@@ -73,6 +75,7 @@ ipcMain.handle('connect-modbus', async (event, ip: string, port: number) => {
 ipcMain.handle('read-modbus', async (event, address: number, length: number) => {
   try {
     const data = await client.readHoldingRegisters(address, length);
+    console.log(address, length)
     return { status: 'success', data: data.data };
   } catch (error) {
     if (error instanceof Error) {
@@ -86,6 +89,7 @@ ipcMain.handle('read-modbus', async (event, address: number, length: number) => 
 // Handle Modbus write
 ipcMain.handle('write-modbus', async (event, address: number, value: number) => {
   try {
+    console.log(address, value);
     await client.writeRegister(address, value);
     return { status: 'success' };
   } catch (error) {

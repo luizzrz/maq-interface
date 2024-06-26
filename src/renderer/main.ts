@@ -9,19 +9,13 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./assets/styles/tailwind.css";
 
 // layouts
-
-import Admin from "./layouts/Admin.vue";
+import User from "./layouts/User.vue";
 // import Auth from "./layouts/Auth.vue";
 
-// views for Admin layout
-
-import Dashboard from "./views/admin/Dashboard.vue";
-import Settings from "./views/admin/Settings.vue";
-import Tables from "./views/admin/Tables.vue";
-import Maps from "./views/admin/Maps.vue";
+// views for Automatic Mode layout
+import AllModbus from "./views/debug/AllModbus.vue";
 
 // views for Auth layout
-
 // import Login from "./views/auth/Login.vue";
 // import Register from "./views/auth/Register.vue";
 
@@ -33,26 +27,26 @@ import Maps from "./views/admin/Maps.vue";
 // routes
 const routes = [
   {
-    path: "/admin",
-    redirect: "/admin/dashboard",
-    component: Admin,
+    path: "/debug",
+    redirect: "/debug/view-all-modbus",
+    component: User,
     children: [
       {
-        path: "/admin/dashboard",
-        component: Dashboard,
+        path: "/debug/view-all-modbus",
+        component: AllModbus,
       },
-      {
-        path: "/admin/settings",
-        component: Settings,
-      },
-      {
-        path: "/admin/tables",
-        component: Tables,
-      },
-      {
-        path: "/admin/maps",
-        component: Maps,
-      },
+      // {
+      //   path: "/admin/settings",
+      //   component: Settings,
+      // },
+      // {
+      //   path: "/admin/tables",
+      //   component: Tables,
+      // },
+      // {
+      //   path: "/admin/maps",
+      //   component: Maps,
+      // },
     ],
   },
   // {
@@ -82,7 +76,7 @@ const routes = [
   //   path: "/",
   //   component: Index,
   // },
-  { path: "/:pathMatch(.*)*", redirect: "/admin/dashboard" },
+  { path: "/:pathMatch(.*)*", redirect: "/debug/view-all-modbus" },
 ];
 
 const router = createRouter({
